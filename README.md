@@ -7,5 +7,6 @@ In order of due date
 * [August 26](https://ehnafziger.github.io/DATA440/082620)
 * [August 28](https://ehnafziger.github.io/DATA440/082820)
 * [August 31](https://ehnafziger.github.io/DATA440/083120)
+* [September 11](https://ehnafziger.github.io/DATA440/091120)
 
 
