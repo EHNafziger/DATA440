@@ -9,11 +9,11 @@
  
  ![](hh_vs_rosa_hh.png)
  
-	Clearly the Santa Rosa data set underestimates population trends. However, If samples from the data sets are randomly incorporated into a synthetic population equal to the size of Santa Rosa, the data is a very good match (again, gold is sampled from the Guatemala data and green is sampled from the Santa Rosa Data.
+Clearly the Santa Rosa data set underestimates population trends. However, If samples from the data sets are randomly incorporated into a synthetic population equal to the size of Santa Rosa, the data is a very good match (again, gold is sampled from the Guatemala data and green is sampled from the Santa Rosa Data.
  
 ![](hhsamp_vs_rosasamp.png)
  
-	This indicates that a random sample equal to the population of Santa Rosa from Santa Rosa survey data yields a viable synthetic population. Since this data is also derived from raster data (Worldpop.org), I also included the population locations to increase the spatial accuracy of the model. Error introduced by doing this was measured as described above. Summed data weights equaled 83,407.36 while the data rows equaled 83,356. Weighed error was calculated to be equal to 0.0002. The resulting data frame was the pivoted (again, just the variables for gender, age, and education). Roughly 200 individual observations were cut from the gender and age pivots before joining with the education pivot. This was due to some unknown discrepancy in the survey data which seems to have been education was not reported in several households. Dropping the data from the other two data frames allowed all three pivots to be joined based on unique identifying numbers. Summed weights post-pivot for the data set was 11,213,542 while the total number of individuals was 11,164,428. The pivoted data (synthetic population) when divided by the Worldpop.org raster data for population was equal to 27.01. The error here is possibly due to the year difference. The DHS program data which the survey is based on was created in 2014-2015 while the Worldpop.org data is from 2020. Between those five years, Guatemala experienced population growth, increasing from 15 million to 17 million people. Below is shown the distribution of the synthetic population and then the raster data.
+This indicates that a random sample equal to the population of Santa Rosa from Santa Rosa survey data yields a viable synthetic population. Since this data is also derived from raster data (Worldpop.org), I also included the population locations to increase the spatial accuracy of the model. Error introduced by doing this was measured as described above. Summed data weights equaled 83,407.36 while the data rows equaled 83,356. Weighed error was calculated to be equal to 0.0002. The resulting data frame was the pivoted (again, just the variables for gender, age, and education). Roughly 200 individual observations were cut from the gender and age pivots before joining with the education pivot. This was due to some unknown discrepancy in the survey data which seems to have been education was not reported in several households. Dropping the data from the other two data frames allowed all three pivots to be joined based on unique identifying numbers. Summed weights post-pivot for the data set was 11,213,542 while the total number of individuals was 11,164,428. The pivoted data (synthetic population) when divided by the Worldpop.org raster data for population was equal to 27.01. The error here is possibly due to the year difference. The DHS program data which the survey is based on was created in 2014-2015 while the Worldpop.org data is from 2020. Between those five years, Guatemala experienced population growth, increasing from 15 million to 17 million people. Below is shown the distribution of the synthetic population and then the raster data.
 	
 ![](rosa_pns1.png)![](rosa_ras.png)
 	
@@ -23,14 +23,14 @@
 
   The raw data indicated varying predicatbility for age. Scaled data was mostly homogenous like the raw data, though suggested size as a predictor. The normalized data indicated strong predictability in gender, potentially due to the binary outcomes of the variable, as well as scaled predictors for education. Percentage data indicated numerous areas of predictors.
 
-	Following the heat map comparison, a multinomial regression and ranger regression were conducted on the data to identify correlations and predictors. Based on these data, I produced gain and ROC charts from the mulitnomial regression:
+Following the heat map comparison, a multinomial regression and ranger regression were conducted on the data to identify correlations and predictors. Based on these data, I produced gain and ROC charts from the mulitnomial regression:
   
 ![](pns_probs_m_gain.png)![](pns_probs_m_roc.png)
  
-  The gains chart suggests size and gender can both be predicted well by the other variables. The ROC curve indicates poor predictive power for all, though age fair the best.
+The gains chart suggests size and gender can both be predicted well by the other variables. The ROC curve indicates poor predictive power for all, though age fair the best.
  
-  And from the ranger regression:
+And from the ranger regression:
  
  ![](pns_probs_gain.png)![](pns_probs_roc.png)
   
- The gains charts showed education could be predicted fairly well by the other variables, which was supported by the ROC chart.
+The gains charts showed education could be predicted fairly well by the other variables, which was supported by the ROC chart.
