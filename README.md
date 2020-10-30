@@ -2,7 +2,7 @@
 ## Data Insights
 * [Data Insight 1](https://ehnafziger.github.io/DATA440/data_insight_1)
 * [Data Insight 2](https://ehnafziger.github.io/DATA440/data_insight_2)
-* [Data Insight 2](https://ehnafziger.github.io/DATA440/data_insight_3)
+* [Data Insight 3](https://ehnafziger.github.io/DATA440/data_insight_3)
 
 ## Coursework and Projects
 In order of due date
