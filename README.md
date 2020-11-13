@@ -14,4 +14,7 @@ In order of due date
 * [September 19 - Project 1](https://ehnafziger.github.io/DATA440/proj_1)
 * [October 25 - Project 2](https://ehnafziger.github.io/DATA440/prj2)
 
+## Final
+* [Essay](https://ehnafziger.github.io/DATA440/essay)
+
 [About me](https://ehnafziger.github.io/DATA440/bio) (cause I needed a break from coding).
