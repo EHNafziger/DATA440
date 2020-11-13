@@ -1,6 +1,6 @@
 # Final: Part 1
 
-## Agent-based modeling as living model for a living world
+## Agent-based modeling as a living model for a living world
 
 Data science is not a new field. We’ve been creating, describing, and analyzing data as a species since the first cavemen saw Gork take a bite of a plant, keel over, and start convulsing. As our technology has advanced, so have our methods for using and analyzing data. This is a concept that Edward Tufte illustrates in masterful detail in his book Beautiful Evidence. From Leonard di Vinci’s star maps, to John Snow’s epidemiology studies, to Google Earth, we can see the evolution of data science paired with that of our species, not just in describing data, but also creating it. This past semester, DATA 440 has worked to learn from existing techniques and to contribute novel insights, just as our ancestors have done. From my perspective as a student studying virology and epidemiology, agent-based modeling has been one of the most useful tools for understanding disease and population dynamics.
 
