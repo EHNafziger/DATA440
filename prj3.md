@@ -12,6 +12,8 @@ Due to package bugs, I did not run the travel network as an animation (the class
 
 ## ABM of Guatemala
 
+Since I have used Guatemala as my area of focus this entire semester, I see no reason to change it up now.
+
 ![](origins.png)![](destinatinos.png)
 
 ![](od_lines.png)
