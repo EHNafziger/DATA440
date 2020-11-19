@@ -6,7 +6,7 @@ To practice implementing a gravity model, I followed the exercise laid out in Ad
 
 ![](cdata_head.png)
 
-Due to package bugs, I did not run the travel network as an animation (the class was told not to) but a sample of the final is below. Population and income data was used to determine movement in this gravity model output.
+Due to package bugs, I did not run the travel network as an animation (the class was told not to) but a sample of the final is below. Population and income data was used to determine movement in this gravity model output. The matrix illustrates the number of individuals that migrated from one borough to another.
 
 ![](london_matrix.png)
 
