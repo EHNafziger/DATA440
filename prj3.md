@@ -8,6 +8,10 @@ To practice implementing a gravity model, I followed the exercise laid out in Ad
 
 Due to package bugs, I did not run the travel network as an animation (the class was told not to) but a sample of the final is below. Population and income data was used to determine movement in this gravity model output.
 
-![](london_matrix)
+![](london_matrix.png)
+
+## ABM of Guatemala
+
+
 
 ![]()
