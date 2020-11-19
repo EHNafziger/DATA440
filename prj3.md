@@ -12,6 +12,11 @@ Due to package bugs, I did not run the travel network as an animation (the class
 
 ## ABM of Guatemala
 
+![](origins.png)
+![](destinatoins.png)
+![](od_lines.png)
 
 
-![]()
+
+![](abm.gif)
+![](abm_nls.gif)
