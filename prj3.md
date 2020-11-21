@@ -14,12 +14,14 @@ This exercise exemplifies the approach presented in the paper by Garcia et al. i
 
 ## ABM of Guatemala
 
-Since I have used Guatemala as my area of focus this entire semester, I see no reason to change it up now. In the Garcia et al. paper we discussed in class, a similar model to what I will be displaying here was used to estimate population flow. The major difference is my model does not use a weighed "gravity model" and essentially operatates on recorded migration data. Using migration data from WorldPop.org, I created shapefiles of the flow of migration, both in terms of its origin and its destination. I then combined these two dataframes to illustrate simplified migration routes between all states in Guatemala. These originate at each states centerpoint.
+Since I have used Guatemala as my area of focus this entire semester, I see no reason to change it up now. In the Garcia et al. paper we discussed in class, a similar model to what I will be displaying here was used to estimate population flow. The major difference is my model does uses recorded migration data to inform flow. Using migration data from WorldPop.org, I created shapefiles of the flow of migration, both in terms of its origin and its destination. I then combined these two dataframes to illustrate simplified migration routes between all states in Guatemala. These originate at each states centerpoint.
 
 ![](origins.png)![](destinatinos.png)
 
 ![](od_lines.png)
 
+After setting up these initial parameters, I distributed points across Guatemala roughly equivalent to the population distriubtion (shown below). The two animations are the same except I have removed the migration lines in one for more clarity.
 
+![](gtm_and_bar)
 
 ![](abm.gif) ![](abm_nls.gif)
