@@ -6,15 +6,13 @@ To practice implementing a gravity model, I followed the exercise laid out in Ad
 
 ![](cdata_head.png)
 
-Due to package bugs, I did not run the travel network as an animation (the class was told not to) but a sample of the final is below. Population and income data was used to determine movement in this gravity model output. The matrix illustrates the number of individuals that migrated from one borough to another as determined by the model's parameters of population and income.
+Due to package bugs, I did not run the travel network as an animation (the class was told not to) but a sample of the final data is below. Population and income data was used to determine movement in this gravity model output, essentially weighing the chances  of an individual moving from one region to another. The matrix illustrates the number of individuals that migrated from one borough to another as determined by the model's parameters of population and income.
 
 ![](london_matrix.png)
 
-This exercise exemplifies the approach presented in the paper by Garcia et al. in 2015, "Modeling internal migration flowsin sub-Saharan Africa usingcensus microdata."
-
 ## ABM of Guatemala
 
-Since I have used Guatemala as my area of focus this entire semester, I see no reason to change it up now. In the Garcia et al. paper we discussed in class, a similar model to what I will be displaying here was used to estimate population flow. The major difference is my model does uses recorded migration data to inform flow. Using migration data from WorldPop.org, I created shapefiles of the flow of migration, both in terms of its origin and its destination. I then combined these two dataframes to illustrate simplified migration routes between all states in Guatemala. These originate at each states centerpoint.
+Since I have used Guatemala as my area of focus this entire semester, I see no reason to change it up now. In the Garcia et al. paper we discussed in class, a similar model to what I will be displaying here was used to estimate population flow. The major difference is my model uses recorded migration data to inform flow. Using migration data from WorldPop.org, I created shapefiles of the flow of migration, both in terms of its origin and its destination. I then combined these two dataframes to illustrate simplified migration routes between all states in Guatemala. These originate at each states centerpoint.
 
 ![](origins.png)![](destinatinos.png)
 
