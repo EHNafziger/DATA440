@@ -10,9 +10,11 @@ Due to package bugs, I did not run the travel network as an animation (the class
 
 ![](london_matrix.png)
 
+This exercise exemplifies the approach presented in the paper by Garcia et al. in 2015, "Modeling internal migration flowsin sub-Saharan Africa usingcensus microdata."
+
 ## ABM of Guatemala
 
-Since I have used Guatemala as my area of focus this entire semester, I see no reason to change it up now.
+Since I have used Guatemala as my area of focus this entire semester, I see no reason to change it up now. In the Garcia et al. paper we discussed in class, a similar model to what I will be displaying here was used to estimate population flow. The major difference is my model does not use a weighed "gravity model" and essentially operatates on recorded migration data. Using migration data from WorldPop.org, I created shapefiles of the flow of migration, both in terms of its origin and its destination. I then combined these two dataframes to illustrate simplified migration routes between all states in Guatemala. These originate at each states centerpoint.
 
 ![](origins.png)![](destinatinos.png)
 
