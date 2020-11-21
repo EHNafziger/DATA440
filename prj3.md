@@ -27,3 +27,9 @@ After setting up these initial parameters, I distributed points across Guatemala
 ![](abm.gif) ![](abm_nls.gif)
 
 It would be useful in cases to where there is not traffic or migration data to have other predictors, possibly remotely gathered, which would be able to inform researchers of population migration in the region. Night lights are one example which can be gathered remotely and indicate a higher population density, as well as potentially a higher standard of living, which is a desirable pull factor.
+
+## Voronoi Polygon of the Barberena and Cuilapa Municipalities
+
+Below is the Voronoi polygon produced for the municipalities of Barberena nad Cuilapa in the State of Santa Rosa. To produce an origin/destination matrix like the one produced for London, I would just need to subset the WorldPop.org data used to generate the ABM of migration in the country of Guatemala. Data should be available at this level of government (adm2). The centerpoints are already defined as part of the Voronoi projection, and path/directionality could be determined in the same way as the Guatemala ABM above. Different weights aside from migration data could be incorporated, such as the already mentioned night lights or the presence of infrastructure such as roads and hospitals (as we definied in Project 1). Furthermore, transportation methods could be incorporated to draw migration and direct it, as this is what happens in the real world.
+
+![](rosa_voronoi.png)
