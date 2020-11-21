@@ -22,6 +22,8 @@ Since I have used Guatemala as my area of focus this entire semester, I see no r
 
 After setting up these initial parameters, I distributed points across Guatemala roughly equivalent to the population distriubtion (shown below). The two animations are the same except I have removed the migration lines in one for more clarity.
 
-![](gtm_and_bar)
+![](gtm_and_bar.png)
 
 ![](abm.gif) ![](abm_nls.gif)
+
+It would be useful in cases to where there is not traffic or migration data to have other predictors, possibly remotely gathered, which would be able to inform researchers of population migration in the region. Night lights are one example which can be gathered remotely and indicate a higher population density, as well as potentially a higher standard of living, which is a desirable pull factor.
