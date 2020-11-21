@@ -20,7 +20,7 @@ Since I have used Guatemala as my area of focus this entire semester, I see no r
 
 ![](od_lines.png)
 
-After setting up these initial parameters, I distributed points across Guatemala roughly equivalent to the population distriubtion (shown below). The two animations are the same except I have removed the migration lines in one for more clarity.
+After setting up these initial parameters, I distributed points across Guatemala roughly equivalent to the population distriubtion (shown below). The distribution of these points could be done differently; for example, using raster data to inform distribution would make this more accurate. The two animations are the same except I have removed the migration lines in one for more clarity.
 
 ![](gtm_and_bar.png)
 
